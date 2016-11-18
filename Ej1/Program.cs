@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ej1
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
+            Form1 forma = new Form1();
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
         }
     }
 }
