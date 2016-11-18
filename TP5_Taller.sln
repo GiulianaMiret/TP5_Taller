@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejj1", "WindowsFormsApplica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punto03", "Punto03\Punto03.csproj", "{2B432992-C826-4D38-BA16-857D89EF2D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punto04", "Punto04\Punto04.csproj", "{BE86B247-69C7-4115-A06B-7337A38303BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punto05", "Punto05\Punto05.csproj", "{F784C65B-B4AC-46EB-B255-2255A7B09840}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2B432992-C826-4D38-BA16-857D89EF2D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B432992-C826-4D38-BA16-857D89EF2D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B432992-C826-4D38-BA16-857D89EF2D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE86B247-69C7-4115-A06B-7337A38303BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE86B247-69C7-4115-A06B-7337A38303BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE86B247-69C7-4115-A06B-7337A38303BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE86B247-69C7-4115-A06B-7337A38303BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F784C65B-B4AC-46EB-B255-2255A7B09840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F784C65B-B4AC-46EB-B255-2255A7B09840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F784C65B-B4AC-46EB-B255-2255A7B09840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F784C65B-B4AC-46EB-B255-2255A7B09840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
