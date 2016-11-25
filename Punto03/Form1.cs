@@ -85,7 +85,7 @@ namespace Punto03
             comboBox1.Items.Add("nueve");
             comboBox1.Items.Add("diez");
             label1.Text = "";
-
+            comboBox1.SelectedIndex = 0;
 
         }
 
