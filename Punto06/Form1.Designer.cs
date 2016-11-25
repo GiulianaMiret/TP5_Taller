@@ -44,18 +44,19 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(90, 102);
+            this.button2.Location = new System.Drawing.Point(42, 147);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 22);
+            this.button2.Size = new System.Drawing.Size(212, 41);
             this.button2.TabIndex = 2;
             this.button2.Text = "Cuenta Corriente";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(90, 60);
+            this.button1.Location = new System.Drawing.Point(42, 74);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 22);
+            this.button1.Size = new System.Drawing.Size(212, 41);
             this.button1.TabIndex = 1;
             this.button1.Text = "Caja de Ahorro";
             this.button1.UseVisualStyleBackColor = true;
@@ -70,7 +71,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Cuentas";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

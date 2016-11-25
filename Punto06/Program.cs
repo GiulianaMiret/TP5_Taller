@@ -13,7 +13,7 @@ namespace Punto06
         /// </summary>
         [STAThread]
         static void Main()
-        {
+        {    // los formularios son los que trabajan con la fachda ._. como los creo afuera D: 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

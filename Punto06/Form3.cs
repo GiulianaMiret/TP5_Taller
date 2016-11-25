@@ -10,40 +10,42 @@ using System.Windows.Forms;
 
 namespace Punto06
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        private  Movimientos m;
+        private Movimientos m;
 
-        public Form2(Movimientos mov)
+        public Form3(Movimientos mov)
         {
             InitializeComponent();
-            this.m = mov; 
+            this.m = mov;
         }
 
+        private void Form3_Load(object sender, EventArgs e)
+        {
 
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToString(m.VerSaldoCajaAhorro()));
+            MessageBox.Show(Convert.ToString(m.VerSaldoCuentaCorriente()));
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Debitar form3 = new Debitar(this.m);
-
-            form3.Show();
+            AcreditarCC acreditarCuentaCorriente = new AcreditarCC(this.m);
+            acreditarCuentaCorriente.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Acreditar form4 = new Acreditar(this.m);
-            form4.Show(); 
+            DebitarCC debitarCuentaCorriente = new DebitarCC(this.m);
+            debitarCuentaCorriente.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Transferir transferirDesdeCA = new Transferir(this.m);
-            transferirDesdeCA.Show();
+            transferirCC transfDesdeCC = new transferirCC(this.m);
+            transfDesdeCC.Show();
         }
     }
 }

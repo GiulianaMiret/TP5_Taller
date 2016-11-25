@@ -1,6 +1,6 @@
 ﻿namespace Punto06
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -36,9 +36,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(69, 28);
+            this.button1.Location = new System.Drawing.Point(73, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 26);
+            this.button1.Size = new System.Drawing.Size(142, 24);
             this.button1.TabIndex = 0;
             this.button1.Text = "Ver Saldo";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,45 +46,46 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(69, 71);
+            this.button2.Location = new System.Drawing.Point(73, 113);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(142, 26);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Debitar";
+            this.button2.Text = "Acreditar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(69, 114);
+            this.button3.Location = new System.Drawing.Point(73, 73);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 27);
+            this.button3.Size = new System.Drawing.Size(142, 25);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Acreditar";
+            this.button3.Text = "Debitar";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(69, 156);
+            this.button4.Location = new System.Drawing.Point(73, 154);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 42);
+            this.button4.Size = new System.Drawing.Size(142, 30);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Transferir a cuenta corriente";
+            this.button4.Text = "Transferir a Caja de Ahorro";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Form2
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 223);
+            this.ClientSize = new System.Drawing.Size(285, 208);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
-            this.Text = "Caja de Ahorro";
+            this.Name = "Form3";
+            this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 
         }

@@ -23,7 +23,7 @@ namespace Punto06
             this.iAcuerdo = pAcuerdo;
         }
 
-        public double Saldo { get { return this.iSaldo; } }
+        public double Saldo { get { return this.iSaldo; } }  
 
         public double Acuerdo { get { return this.iAcuerdo; } }
 

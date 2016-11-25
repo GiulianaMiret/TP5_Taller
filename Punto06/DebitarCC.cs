@@ -10,42 +10,39 @@ using System.Windows.Forms;
 
 namespace Punto06
 {
-    public partial class Debitar : Form
+    public partial class DebitarCC : Form
     {
         private Movimientos m;
-        public Debitar(Movimientos mov) 
+
+        public DebitarCC(Movimientos mov)
         {
             InitializeComponent();
-            this.m = mov;
+            this.m = mov; 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "")
+            if (textBox1.Text!="")
             {
                 try
                 {
-                    m.DebitarSaldoCajaAhorro(Convert.ToDouble(textBox1.Text));
+                    m.DebitarSaldoCuentaCorriente(Convert.ToDouble(textBox1.Text));
                 }
                 catch (NoHaySuficienteSaldo)
                 {
                     MessageBox.Show("No hay suficiente saldo");
                 }
-
-                label3.Text = Convert.ToString(m.VerSaldoCajaAhorro());
-
+                label5.Text = Convert.ToString(m.VerSaldoCuentaCorriente());
                 textBox1.Text = "0";
                 var t = Task.Delay(1250); //1 second/1000 ms
                 t.Wait();
                 this.Close();
-
             }
         }
 
-        private void Debitar_Load(object sender, EventArgs e)
+        private void DebitarCC_Load(object sender, EventArgs e)
         {
-            label3.Text = Convert.ToString(m.VerSaldoCajaAhorro());
-
+            label5.Text = Convert.ToString(m.VerSaldoCuentaCorriente());
         }
     }
 }

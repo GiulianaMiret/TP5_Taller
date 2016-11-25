@@ -52,6 +52,12 @@
     <Compile Include="Acreditar.Designer.cs">
       <DependentUpon>Acreditar.cs</DependentUpon>
     </Compile>
+    <Compile Include="AcreditarCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcreditarCC.Designer.cs">
+      <DependentUpon>AcreditarCC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="Cuenta.cs" />
     <Compile Include="Cuentas.cs" />
@@ -60,6 +66,12 @@
     </Compile>
     <Compile Include="Debitar.Designer.cs">
       <DependentUpon>Debitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebitarCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebitarCC.Designer.cs">
+      <DependentUpon>DebitarCC.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -73,22 +85,49 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Movimientos.cs" />
     <Compile Include="NoHaySuficienteSaldo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoDocumento.cs" />
+    <Compile Include="Transferir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transferir.Designer.cs">
+      <DependentUpon>Transferir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transferirCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferirCC.Designer.cs">
+      <DependentUpon>transferirCC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Acreditar.resx">
       <DependentUpon>Acreditar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AcreditarCC.resx">
+      <DependentUpon>AcreditarCC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Debitar.resx">
       <DependentUpon>Debitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebitarCC.resx">
+      <DependentUpon>DebitarCC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +138,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Transferir.resx">
+      <DependentUpon>Transferir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferirCC.resx">
+      <DependentUpon>transferirCC.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

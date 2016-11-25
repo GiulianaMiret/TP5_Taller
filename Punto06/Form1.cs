@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace Punto06
 {
     public partial class Form1 : Form
-    {
+    { 
+        private Movimientos m = new Movimientos(); 
         public Form1()
         {
             InitializeComponent();
@@ -25,8 +26,18 @@ namespace Punto06
 
         private void btnOpenForm_Click()
         {
-            Form2 frm2 = new Form2();
+            Form2 frm2 = new Form2(m);
             frm2.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3(m);
+            frm3.Show();
         }
     }
 }

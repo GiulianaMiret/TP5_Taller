@@ -12,10 +12,11 @@ namespace Punto06
 {
     public partial class Acreditar : Form
     {
-        Movimientos m = new Movimientos();
-        public Acreditar()
+        private Movimientos m;
+        public Acreditar(Movimientos mov)
         {
             InitializeComponent();
+            this.m = mov;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -29,6 +30,11 @@ namespace Punto06
             {
                 m.AcreditarSaldoCajaAhorro(Convert.ToDouble(textBox1.Text));
                 label3.Text = Convert.ToString(m.VerSaldoCajaAhorro());
+
+                textBox1.Text = "0";
+                var t = Task.Delay(1250); //1 second/1000 ms
+                t.Wait();
+                this.Close();
             }
         }
 
