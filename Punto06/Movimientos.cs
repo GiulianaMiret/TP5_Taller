@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Punto06
 {
-    public class Movimientos
+    public class Movimientos 
     {
         private Cuentas icuentas;
 
