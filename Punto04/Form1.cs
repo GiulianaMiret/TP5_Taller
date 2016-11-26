@@ -19,32 +19,32 @@ namespace Punto04
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button1";
+            textBox1.Text = textBox1.Text + "button1" + "\r\n";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button2";
+            textBox1.Text = textBox1.Text + "button2"+ "\r\n";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button3";
+            textBox1.Text = textBox1.Text + "button3"+ "\r\n";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button4";
+            textBox1.Text = textBox1.Text + "button4"+ "\r\n";
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button5";
+            textBox1.Text = textBox1.Text + "button5"+ "\r\n";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox1.Text = textBox1.Text + "\n button6";
+            textBox1.Text = textBox1.Text + "button6"+ "\r\n";
         }
 
         private void Form1_Load(object sender, EventArgs e)
