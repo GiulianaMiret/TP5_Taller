@@ -19,24 +19,29 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Usted a seleccionado el botón 1");
+            MessageBox.Show("Se ha clickeado el botón 1");
 
           
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Usted a seleccionado el botón 2");
+            MessageBox.Show("Se ha clickeado el botón 2");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Usted a seleccionado el botón 3");
+            MessageBox.Show("Se ha clickeado el botón 3");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Usted a seleccionado el botón 4");
+            MessageBox.Show("Se ha clickeado el botón 4");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se ha clickeado el botón 5");
         }
     }
 }
